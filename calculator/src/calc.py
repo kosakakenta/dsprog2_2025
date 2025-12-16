@@ -43,7 +43,7 @@ class CalculatorApp(ft.Container):
                 ft.Row(controls=[self.result], alignment="end"),
                 ft.Row(
                     controls=[
-                        # 左側の科学計算ボタン群
+                        
                         ft.Column(
                             controls=[
                                 ft.Row(
@@ -69,9 +69,9 @@ class CalculatorApp(ft.Container):
                             ],
                             spacing=4,
                         ),
-                        # スペーサー
+                        
                         ft.Container(width=20),
-                        # 右側の標準的な計算機能
+                        
                         ft.Column(
                             controls=[
                                 ft.Row(
