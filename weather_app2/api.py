@@ -14,3 +14,4 @@ def fetch_forecast(area_code):
     res = requests.get(FORECAST_URL.format(area_code))
     res.raise_for_status()
     return res.json()
+

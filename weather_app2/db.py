@@ -55,3 +55,4 @@ def get_forecast_by_area(area_code):
     conn.close()
     return rows
 
+
